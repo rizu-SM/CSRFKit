@@ -1,0 +1,5 @@
+Role:
+    Example raw HTTP request used for manual testing.
+
+Later this file can contain a real sample request that the parser should
+convert into a CSRF PoC.
