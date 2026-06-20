@@ -1,0 +1,11 @@
+architechture.txt
+README.md
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Tests
+.pytest_cache/
+htmlcov/
+.coverage
+data/
