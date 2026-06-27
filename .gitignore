@@ -9,4 +9,3 @@ __pycache__/
 htmlcov/
 .coverage
 data/
-explanation.md
